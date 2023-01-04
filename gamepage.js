@@ -1,5 +1,5 @@
 var y = Math.floor(Math.random() * 10 + 1);
-var x = document.getElementById("guessField").value;
+var x = document.getElementById("guessField");
 
 if(x == y)
 {
